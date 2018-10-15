@@ -4,7 +4,7 @@ function deepSum (arr) {
  }else{
      var hasil = 0;
      for( i=0 ; i<arr.length ; i++ ){
-         console.log(arr[i]);
+        //  console.log(arr[i]);
          for( j=0 ; j<arr[i].length ; j++){
             for( k=0 ; k<arr[i][j].length ; k++){
                 hasil += arr[i][j];
