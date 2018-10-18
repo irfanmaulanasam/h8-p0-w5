@@ -10,7 +10,14 @@ function graduates (students) {
                         score: students[i].score}
                     hasil[students[i].class].push(temp)
                 }
+                else {
+              var temp ={
+                name : students[i].name,
+                score : students[i].score}
+                hasil[students[i].class].push(temp)
             }
+            }
+            
     }
     return hasil;
 }
