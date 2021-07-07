@@ -11,7 +11,7 @@ function attack (damage) {
         }
     }
     return hasil;
-  }
+  } 
   
   // TEST CASE
   console.log(damageCalculation(9, 25)); // 207
